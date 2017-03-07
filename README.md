@@ -1,22 +1,22 @@
-# README
+﻿# Leia- me
 ## Visual Studio Code ADVPL Snippets
  
-Esta extens�o adiciona alguns Snippets da linguagem ADVPL.
+Esta extensão adiciona alguns Snippets da linguagem ADVPL.
 
-Vers�o 0.0.1
-    - Modelos de TReport podendo ter entre uma e 5 sess�es.
+Versão 0.0.1
+    - Modelos de TReport podendo ter entre uma e 5 sessões.
 
-# Installation
+# Instalação
 
-1. Install Visual Studio Code 0.10.1 or higher
-2. Launch Code
-3. From the command palette `Ctrl-Shift-P` (Windows, Linux) or `Cmd-Shift-P` (OSX)
-4. Select Install Extension
-5. Type `ADVPL-Snippets`
-6. Choose the extension
-7. Reload Visual Studio Code
+1. Intalação Visual Studio Code 0.10.1 ou superior
+2. Iniciar o Visual Studio Code
+3. Na aba de pompt de comando `Ctrl-Shift-P` (Windows, Linux) ou `Cmd-Shift-P` (OSX)
+4. Selecione Extensão
+5. Digite `ADVPL-Snippets`
+6. Escolha a extensão
+7. Recarregue Visual Studio Code
 
-# Source
+# Código
 [Github](https://github.com/robsonrosilva/advpl-snippets)
 
 ** Enjoy!**
