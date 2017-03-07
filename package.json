@@ -19,7 +19,11 @@
 		"snippets": [
 			{
 				"language": "advpl",
-				"path": "./snippets/snippets.json"
+				"path": "./snippets/TReport.json"
+			},
+			{
+				"language": "advpl",
+				"path": "./snippets/WebServices.json"
 			}
 		]
 	}
