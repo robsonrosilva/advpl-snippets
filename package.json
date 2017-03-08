@@ -8,6 +8,13 @@
 	"engines": {
 		"vscode": "^1.9.1"
 	},
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/robsonrosilva/advpl-snippets.git"
+    },
+    "bugs": {
+        "url": "https://github.com/robsonrosilva/advpl-snippets/issues"
+    },
 	"galleryBanner": {
 		"color": "#1E81C1",
 		"theme": "light"

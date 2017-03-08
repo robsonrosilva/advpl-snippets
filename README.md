@@ -19,6 +19,25 @@ Versão 0.0.1
 6. Escolha a extensão
 7. Recarregue Visual Studio Code
 
+# Snippets
+
+1. TReport
+* **tReport1** - Modelo de TReport 1 Sessão.
+* **tReport2** - Modelo de TReport 2 Sessões.
+* **tReport3** - Modelo de TReport 3 Sessões.
+* **tReport4** - Modelo de TReport 4 Sessões.
+* **tReport5** - Modelo de TReport 5 Sessões.
+* **tReportTrCell** - Modelo de TRCell para uso nas sessões.
+* **tReportAllParam** - Modelo de adição de parâmetros de impressão. 
+* **pergunta** - Modelo de PutSx1 para geraçãod e parâmetros para o relatório.
+
+2. WebServices
+* **WebService** - Estrutura base do Fonte para WebServices.
+* **WsMethodDec** - Estrutura de declaração de método.
+* **WsMethod** - Estrutura do método.
+* **WsD__** - Estrutura de declaração de WsData.
+* **WSStruct** - Estrutura de Array para o WsData tipo Array.
+
 # Código
 [Github](https://github.com/robsonrosilva/advpl-snippets)
 
