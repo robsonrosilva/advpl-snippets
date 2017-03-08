@@ -1,7 +1,9 @@
 # Leia-me
 ## Visual Studio Code ADVPL Snippets
  
-Esta extensão adiciona alguns Snippets da linguagem ADVPL.
+Esta extensão adiciona alguns Snippets da linguagem ADVPL no visual code [VsCode MarketPlace](https://marketplace.visualstudio.com/items?itemName=robsonrosilva.advpl-snippets).
+
+Caso você encontre algum problema ou queira dar alguma sugestão de melhoria, por favor abra uma issue no [GitHub](https://github.com/robsonrosilva/advpl-snippets/issues). 
 
 Versão 0.0.2
     - Modelos de WebServices.
