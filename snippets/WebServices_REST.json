@@ -1,0 +1,130 @@
+{
+    "WebServiceREST": {
+        "prefix": "WebServiceREST - WebService REST.",
+        "body": [
+            "// #########################################################################################",
+            "// Projeto: ${project}",
+            "// Modulo : ${module}",
+            "// Fonte  : ${file}.prw",
+            "// ---------+-------------------+-----------------------------------------------------------",
+            "// Data     | Autor             | Descricao",
+            "// ---------+-------------------+-----------------------------------------------------------",
+            "// ${date} | ${author} 	| Contrução Incial do Fonte.",
+            "// ---------+-------------------+-----------------------------------------------------------",
+            "",
+            "#INCLUDE 'TOTVS.CH'",
+            "#INCLUDE 'RESTFUL.CH'",
+            "",
+            "//------------------------------------------------------------------------------------------",
+            "/*/{Protheus.doc} ${file}",
+            "Web Service para o protheus",
+            "",
+            "@type	   WebService",
+            "@author    ${author}",
+            "@version   1.00",
+            "@since     ${date}",
+            "/*/",
+            "//------------------------------------------------------------------------------------------",
+            "",
+            "WSSERVICE ${file} DESCRIPTION ${description_webservice}",
+            "	",
+            "	${WsData}",
+            "",
+            "	${WsMethodDec}",
+            "",
+            "ENDWSSERVICE",
+            "",
+            "${WsMethodREST}"
+        ],
+        "WsMethodGetREST": {
+            "prefix": "WsMethodGetREST Gera o Método para WebService REST.",
+            "body": [
+                "",
+                "//------------------------------------------------------------------------------------------",
+                "/*/{Protheus.doc} ${file}",
+                "${methodDescription}",
+                "@author    ${author}",
+                "@version   ${version}",
+                "@since     ${date}",
+                "/*/",
+                "//------------------------------------------------------------------------------------------",
+                "WSMETHOD GET WSRECEIVE ${WsDataReceived} WSSERVICE ${file} DESCRIPTION '${descricao}' WSSYNTAX '${sintaxe}'",
+                "",
+                "${WsResponseREST}",
+                "",
+                "Return ${returnBoolean}//O retorno indica se foi feito o processamento com sucesso ou não"
+            ]
+        },
+        "WsMethodPostREST": {
+            "prefix": "WsMethodPostREST Gera o Método para WebService REST.",
+            "body": [
+                "",
+                "//------------------------------------------------------------------------------------------",
+                "/*/{Protheus.doc} ${file}",
+                "${methodDescription}",
+                "@author    ${author}",
+                "@version   ${version}",
+                "@since     ${date}",
+                "/*/",
+                "//------------------------------------------------------------------------------------------",
+                "WSMETHOD POST WSRECEIVE ${WsDataReceived} WSSERVICE ${file} DESCRIPTION '${descricao}' WSSYNTAX '${sintaxe}'",
+                "",
+                "${WsResponseREST}",
+                "",
+                "Return ${returnBoolean}//O retorno indica se foi feito o processamento com sucesso ou não"
+            ]
+        },
+        "WsMethodPutREST": {
+            "prefix": "WsMethodPutREST Gera o Método para WebService REST.",
+            "body": [
+                "",
+                "//------------------------------------------------------------------------------------------",
+                "/*/{Protheus.doc} ${file}",
+                "${methodDescription}",
+                "@author    ${author}",
+                "@version   ${version}",
+                "@since     ${date}",
+                "/*/",
+                "//------------------------------------------------------------------------------------------",
+                "WSMETHOD PUT WSRECEIVE ${WsDataReceived} WSSERVICE ${file} DESCRIPTION '${descricao}' WSSYNTAX '${sintaxe}'",
+                "",
+                "${WsResponseREST}",
+                "",
+                "Return ${returnBoolean}//O retorno indica se foi feito o processamento com sucesso ou não"
+            ]
+        },
+        "WsMethodDeleteREST": {
+            "prefix": "WsMethodDeleteREST Gera o Método para WebService REST.",
+            "body": [
+                "",
+                "//------------------------------------------------------------------------------------------",
+                "/*/{Protheus.doc} ${file}",
+                "${methodDescription}",
+                "@author    ${author}",
+                "@version   ${version}",
+                "@since     ${date}",
+                "/*/",
+                "//------------------------------------------------------------------------------------------",
+                "WSMETHOD DELETE WSRECEIVE ${WsDataReceived} WSSERVICE ${file} DESCRIPTION '${descricao}' WSSYNTAX '${sintaxe}'",
+                "",
+                "${WsResponseREST}",
+                "",
+                "Return ${returnBoolean}//O retorno indica se foi feito o processamento com sucesso ou não"
+            ]
+        },
+        "WsResponseTrueREST": {
+            "prefix": "WsResponseTrueREST Seta resposta caso o Webservice retorne true.",
+            "body": [
+                ":SetResponse('$resposta')",
+                "Return .T."
+            ]
+        },
+        "WsResponseFalseREST": {
+            "prefix": "WsResponseFalseREST Seta resposta caso o Webservice retorne false.",
+            "body": [
+                "SetRestFault(${codigoErroWeb}, '$resposta')",
+                "Return .F."
+            ]
+        }
+    }
+}

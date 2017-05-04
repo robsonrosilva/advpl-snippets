@@ -5,6 +5,9 @@ Esta extensão adiciona alguns Snippets da linguagem ADVPL no visual code [VsCod
 
 Caso você encontre algum problema ou queira dar alguma sugestão de melhoria, por favor abra uma issue no [GitHub](https://github.com/robsonrosilva/advpl-snippets/issues). 
 
+Versão 0.0.4
+    - Modelo de WebService REST.
+
 Versão 0.0.3
     - Ajuste de pergunta.
 
@@ -42,6 +45,15 @@ Versão 0.0.1
  * **WsMethod** - Estrutura do método.
  * **WsD__** - Estrutura de declaração de WsData.
  * **WSStruct** - Estrutura de Array para o WsData tipo Array.
+
+3. WebServices REST
+ * **WebServiceREST** - Estrutura base do Fonte para WebServices REST.
+ * **WsMethodGetREST** - Estrutura do método GET para WebServices REST.
+ * **WsMethodPostREST** - Estrutura do método POST para WebServices REST.
+ * **WsMethodPutREST** - Estrutura do método PUT para WebServices REST.
+ * **WsMethodDeleteREST** - Estrutura do método DELETE para WebServices REST.
+ * **WsResponseTrueREST** - Retorno positivo para a operação para WebServices REST.
+ * **WsResponseFalseREST** - Retorno negativo para a operação para WebServices REST.
 
 # Código
 [Github](https://github.com/robsonrosilva/advpl-snippets)
