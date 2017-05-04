@@ -30,6 +30,10 @@
             {
                 "language": "advpl",
                 "path": "./snippets/WebServices.json"
+            },
+            {
+                "language": "advpl",
+                "path": "./snippets/WebServices_REST.json"
             }
         ]
     }
