@@ -1,13 +1,13 @@
 {
-	"name": "advpl-snippets",
-	"displayName": "ADVPL Snippets",
-	"description": "ADVPL Snippets",
-	"version": "0.0.2",
-	"publisher": "robsonrosilva",
-	"icon": "images/icon.png",
-	"engines": {
-		"vscode": "^1.9.1"
-	},
+    "name": "advpl-snippets",
+    "displayName": "ADVPL Snippets",
+    "description": "ADVPL Snippets",
+    "version": "0.0.3",
+    "publisher": "robsonrosilva",
+    "icon": "images/icon.png",
+    "engines": {
+        "vscode": "^1.9.1"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/robsonrosilva/advpl-snippets.git"
@@ -15,23 +15,22 @@
     "bugs": {
         "url": "https://github.com/robsonrosilva/advpl-snippets/issues"
     },
-	"galleryBanner": {
-		"color": "#1E81C1",
-		"theme": "light"
-	},
-	"categories": [
-		"Snippets"
-	],
-	"contributes": {
-		"snippets": [
-			{
-				"language": "advpl",
-				"path": "./snippets/TReport.json"
-			},
-			{
-				"language": "advpl",
-				"path": "./snippets/WebServices.json"
-			}
-		]
-	}
+    "galleryBanner": {
+        "color": "#1E81C1",
+        "theme": "light"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [{
+                "language": "advpl",
+                "path": "./snippets/TReport.json"
+            },
+            {
+                "language": "advpl",
+                "path": "./snippets/WebServices.json"
+            }
+        ]
+    }
 }
