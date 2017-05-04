@@ -5,6 +5,9 @@ Esta extensão adiciona alguns Snippets da linguagem ADVPL no visual code [VsCod
 
 Caso você encontre algum problema ou queira dar alguma sugestão de melhoria, por favor abra uma issue no [GitHub](https://github.com/robsonrosilva/advpl-snippets/issues). 
 
+Versão 0.0.5
+    - Correção de inclusão de WebServices REST.
+
 Versão 0.0.4
     - Modelo de WebService REST.
 
