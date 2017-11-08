@@ -96,6 +96,18 @@
             "WSData 		${var}  		AS FLOAT"
         ]
     },
+    "WsDBR": {
+        "prefix": "WsData Booleano obrigatório",
+        "body": [
+            "WSData 		${var}  		AS BOOLEAN OPTIONAL"
+        ]
+    },
+    "WsDBO": {
+        "prefix": "WsData Booleano opcional",
+        "body": [
+            "WSData 		${var}  		AS BOOLEAN"
+        ]
+    },
     "WsDAO": {
         "prefix": "WsData Array opcional",
         "body": [
