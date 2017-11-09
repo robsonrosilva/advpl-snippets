@@ -2,7 +2,7 @@
     "name": "advpl-snippets",
     "displayName": "ADVPL Snippets",
     "description": "ADVPL Snippets",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "publisher": "robsonrosilva",
     "icon": "images/icon.png",
     "engines": {
@@ -23,7 +23,8 @@
         "Snippets"
     ],
     "contributes": {
-        "snippets": [{
+        "snippets": [
+            {
                 "language": "advpl",
                 "path": "./snippets/TReport.json"
             },
