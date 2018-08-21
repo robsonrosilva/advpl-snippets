@@ -37,5 +37,10 @@
                 "path": "./snippets/WebServices_REST.json"
             }
         ]
+    },
+    "dependencies": {
+        "npm": "^6.4.0",
+        "to": "^0.2.9",
+        "update": "^0.7.4"
     }
 }

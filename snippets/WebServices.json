@@ -9,7 +9,7 @@
             "// ---------+-------------------+-----------------------------------------------------------",
             "// Data     | Autor             | Descricao",
             "// ---------+-------------------+-----------------------------------------------------------",
-            "// ${date} | ${author} 	| Contrução Incial do Fonte.",
+            "// ${date}  | ${author}         | Contrução Incial do Fonte.",
             "// ---------+-------------------+-----------------------------------------------------------",
             "",
             "#INCLUDE 'PROTHEUS.CH'",
@@ -19,7 +19,7 @@
             "/*/{Protheus.doc} ${file}",
             "Web Service para o protheus",
             "",
-            "@type	   WebService",
+            "@type      WebService",
             "@author    ${author}",
             "@version   1.00",
             "@since     ${date}",
@@ -27,10 +27,10 @@
             "//------------------------------------------------------------------------------------------",
             "",
             "WSSERVICE ${file} DESCRIPTION ${description_webservice}",
-            "	",
-            "	${WsData}",
             "",
-            "	${WsMethodDec}",
+            "    ${WsData}",
+            "",
+            "    ${WsMethodDec}",
             "",
             "ENDWSSERVICE",
             "",
@@ -40,7 +40,7 @@
     "WsMethodDec": {
         "prefix": "WsMethodDec - Declara o Método.",
         "body": [
-            "WSMethod ${methodName}			DESCRIPTION '${methodDescription}'"
+            "WSMethod ${methodName}            DESCRIPTION '${methodDescription}'"
         ]
     },
     "WsMethod": {
@@ -63,61 +63,61 @@
     "WsDSO": {
         "prefix": "WsData String opcional",
         "body": [
-            "WSData 		${var}  		AS STRING OPTIONAL"
+            "WSData         ${var}          AS STRING OPTIONAL"
         ]
     },
     "WsDSR": {
         "prefix": "WsData String obrigatório",
         "body": [
-            "WSData 		${var}  		AS STRING"
+            "WSData         ${var}          AS STRING"
         ]
     },
     "WsDDO": {
         "prefix": "WsData Data opcional",
         "body": [
-            "WSData 		${var}  		AS DATE OPTIONAL"
+            "WSData         ${var}          AS DATE OPTIONAL"
         ]
     },
     "WsDDR": {
         "prefix": "WsData Data obrigatório",
         "body": [
-            "WSData 		${var}  		AS DATE"
+            "WSData         ${var}          AS DATE"
         ]
     },
     "WsDNO": {
         "prefix": "WsData Numérico opcional",
         "body": [
-            "WSData 		${var}  		AS FLOAT OPTIONAL"
+            "WSData         ${var}          AS FLOAT OPTIONAL"
         ]
     },
     "WsDNR": {
         "prefix": "WsData Numérico obrigatório",
         "body": [
-            "WSData 		${var}  		AS FLOAT"
+            "WSData         ${var}          AS FLOAT"
         ]
     },
     "WsDBR": {
         "prefix": "WsData Booleano obrigatório",
         "body": [
-            "WSData 		${var}  		AS BOOLEAN OPTIONAL"
+            "WSData         ${var}          AS BOOLEAN OPTIONAL"
         ]
     },
     "WsDBO": {
         "prefix": "WsData Booleano opcional",
         "body": [
-            "WSData 		${var}  		AS BOOLEAN"
+            "WSData         ${var}          AS BOOLEAN"
         ]
     },
     "WsDAO": {
         "prefix": "WsData Array opcional",
         "body": [
-            "WSData 		${var}  		AS ARRAY OF ${struct} OPTIONAL //Obrigatório criar WsStruct"
+            "WSData         ${var}          AS ARRAY OF ${struct} OPTIONAL //Obrigatório criar WsStruct"
         ]
     },
     "WsDAR": {
         "prefix": "WsData Array obrigatório",
         "body": [
-            "WSData 		${var}  		AS ARRAY OF ${struct} //Obrigatório criar WsStruct"
+            "WSData         ${var}          AS ARRAY OF ${struct} //Obrigatório criar WsStruct"
         ]
     },
     "WSStruct": {
@@ -126,7 +126,7 @@
             "//------------------------------------------------------------------------------------------",
             "/*/{Protheus.doc} ${struct}",
             "Estrutura de dados para array.",
-            "@type 	   Estrutura",
+            "@type        Estrutura",
             "/*/",
             "//------------------------------------------------------------------------------------------",
             "",
